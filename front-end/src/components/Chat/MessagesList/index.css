@@ -1,0 +1,12 @@
+.messagesListContainer {
+  overflow: overlay;
+  height: 100%;
+}
+
+.messagesListContainer::-webkit-scrollbar{
+  width: 5px;
+}
+
+.messagesListContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.25);
+}

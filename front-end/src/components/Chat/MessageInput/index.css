@@ -1,0 +1,43 @@
+.messageInputContainer {
+  width: calc(100% - 16px);
+  background-color: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.messageInputContainer .avatarImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  margin-right: 3px;
+}
+
+.messageInputContainer form {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+}
+
+.messageInputContainer form input[type="text"] {
+  width: calc(100% - 16px - 25px);
+  height: 40px;
+  padding: 8px;
+  font-family: Roboto;
+  font-size: 20px;
+  border: none;
+}
+
+.messageInputContainer form button {
+  padding: 0;
+  border: none;
+  width: fit-content;
+  background: transparent;
+}
+
+.messageInputContainer form input[type="text"]:focus, .messageInputContainer form button:focus {
+  outline: none;
+}

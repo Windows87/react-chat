@@ -1,0 +1,36 @@
+.message {
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.messageContainer {
+  display: flex;
+  width: 100%;
+}
+
+.messageContainerRight {
+	justify-content: flex-end
+}
+
+.messageContainer .image {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.messageContainer .content {
+  max-width: 70%;
+  height: fit-content;
+  padding: 5px;
+  background-color: white;
+  font-size: 18px;
+  word-break: break-word;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
